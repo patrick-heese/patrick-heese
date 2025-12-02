@@ -9,7 +9,7 @@ My portfolio focuses on Infrastructure as Code (IaC), production-style architect
 ## How I Build  
 
 - **IaC first** - Core infrastructure is provisioned with CloudFormation, SAM, or Terraform with format/lint/plan/change sets. I only use the console where a service really requires it.  
-- **IaC quality gates** - Pinned repos call a reusable IaC GitHub Actions workflow that runs formatting, validation, and (optionally) plans or change sets using OIDC to scoped IAM roles.  
+- **IaC quality gate** - Pinned repos call a reusable IaC GitHub Actions workflow that runs formatting, validation, and (optionally) plans or change sets using OIDC to scoped IAM roles.  
 - **Security and operations** - Least-privilege IAM, private networking by default, tagging, logs, metrics, alarms.  
 - **Consistency** - README structure, architecture diagrams, and verified commits.  
 - **Original work** - All Infrastructure as Code, documentation, and diagrams are created by me unless clearly credited in an Acknowledgments section. Some Lambda functions and website components came from course examples; when that happens, I call it out in Acknowledgments.  
@@ -160,6 +160,6 @@ Services: ECR, ECS Fargate, CodePipeline, CodeBuild, CloudWatch Logs · IaC: Ter
 
 ## Contact  
 
-- GitHub: @patrick-heese  
+- GitHub: https://github.com/patrick-heese/  
 - LinkedIn: https://www.linkedin.com/in/patrick-heese/  
 - Email: pheese8@gmail.com  
