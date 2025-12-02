@@ -74,7 +74,7 @@ Services: ECR, ECS Fargate, CodePipeline, CodeBuild, CloudWatch Logs · IaC: Ter
   [aws-event-announcement-website](https://github.com/patrick-heese/aws-event-announcement-website)  
 
 - Bucket List Tracker Application  
-  Services: Amplify, AppSync (GraphQL), DynamoDB, S3 · IaC: N/A
+  Services: Amplify, AppSync (GraphQL), DynamoDB, S3 · IaC: N/A  
   [aws-bucket-list-tracker](https://github.com/patrick-heese/aws-bucket-list-tracker)  
 
 </details>  
