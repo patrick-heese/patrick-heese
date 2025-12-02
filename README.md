@@ -21,31 +21,37 @@ My portfolio focuses on Infrastructure as Code (IaC), production-style architect
 **Cloud Resume Challenge** - Global HTTPS resume on CloudFront + API/DynamoDB; signals: IaC, OIDC CI/CD, least-privilege IAM.  
 Services: CloudFront, API Gateway, Lambda, DynamoDB · IaC: Terraform  
 [aws-cloud-resume-challenge](https://github.com/patrick-heese/aws-cloud-resume-challenge)  
+
 ![IaC Gate](https://github.com/patrick-heese/aws-cloud-resume-challenge/actions/workflows/infra-ci.yml/badge.svg)  
 
 **Site-to-Site VPN (TGW + BGP)** - Dual-tunnel IPsec to TGW with BGP propagation; signals: failover tested, private-only workloads.  
 Services: VPC, Transit Gateway, VPN/IPsec, EC2 · IaC: CloudFormation  
 [aws-tgw-site-to-site-vpn](https://github.com/patrick-heese/aws-tgw-site-to-site-vpn)  
+
 ![IaC Gate](https://github.com/patrick-heese/aws-tgw-site-to-site-vpn/actions/workflows/infra-ci.yml/badge.svg)  
 
 **Secure Application on AWS (Security Pillar)** - ALB→EC2/RDS in private subnets with WAF + managed rules; signals: least-privilege IAM, encrypted at rest/in transit.  
 Services: ALB, EC2, RDS, WAF, S3 · IaC: CloudFormation  
 [aws-securecart-security-pillar](https://github.com/patrick-heese/aws-securecart-security-pillar)  
+
 ![IaC Gate](https://github.com/patrick-heese/aws-securecart-security-pillar/actions/workflows/infra-ci.yml/badge.svg)  
 
 **3-Tier WordPress Website on AWS** - ALB → EC2 + EFS + RDS (Multi-AZ); signals: IaC, SSM-sourced secrets, no public DB access.  
 Services: VPC, ALB, EC2 ASG, RDS Multi-AZ, EFS · IaC: CloudFormation  
 [aws-wordpress-three-tier-website](https://github.com/patrick-heese/aws-wordpress-three-tier-website)  
+
 ![IaC Gate](https://github.com/patrick-heese/aws-wordpress-three-tier-website/actions/workflows/infra-ci.yml/badge.svg)  
 
 **Near Real-Time Analytics (Kinesis → Lambda → Athena)** - Streaming pipeline (Kinesis → Lambda → Athena); signals: at-least-once delivery, idempotent processing, IaC, OIDC CI/CD.  
 Services: Kinesis, Lambda, DynamoDB, S3, Athena, SNS · IaC: SAM  
 [aws-stock-market-analytics-pipeline](https://github.com/patrick-heese/aws-stock-market-analytics-pipeline)  
+
 ![IaC Gate](https://github.com/patrick-heese/aws-stock-market-analytics-pipeline/actions/workflows/infra-ci.yml/badge.svg)  
 
 **2048 CI/CD (ECS/ECR)** - Automated build/test/deploy to ECS Fargate; signals: zero-secrets OIDC, gated deploys via CodePipeline/CodeBuild.  
 Services: ECR, ECS Fargate, CodePipeline, CodeBuild, CloudWatch Logs · IaC: Terraform  
 [aws-2048-game-cicd-pipeline](https://github.com/patrick-heese/aws-2048-game-cicd-pipeline)  
+
 ![IaC Gate](https://github.com/patrick-heese/aws-2048-game-cicd-pipeline/actions/workflows/infra-ci.yml/badge.svg)  
 
 ---
