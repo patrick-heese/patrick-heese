@@ -42,7 +42,7 @@ Services: VPC, ALB, EC2 ASG, RDS Multi-AZ, EFS · IaC: CloudFormation
 
 ![IaC Gate](https://github.com/patrick-heese/aws-wordpress-three-tier-website/actions/workflows/infra-ci.yml/badge.svg)  
 
-**Near Real-Time Analytics (Kinesis → Lambda → Athena)** - Streaming pipeline (Kinesis → Lambda → Athena); signals: at-least-once delivery, idempotent processing, IaC, OIDC CI/CD.  
+**Stock Market Analytics Pipeline** - Streaming data pipeline (Kinesis → Lambda → Athena); signals: at-least-once delivery, idempotent processing, IaC, OIDC CI/CD.  
 Services: Kinesis, Lambda, DynamoDB, S3, Athena, SNS · IaC: SAM  
 [aws-stock-market-analytics-pipeline](https://github.com/patrick-heese/aws-stock-market-analytics-pipeline)  
 
