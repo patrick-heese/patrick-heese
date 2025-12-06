@@ -8,7 +8,7 @@ My portfolio focuses on Infrastructure as Code (IaC), production-style architect
 
 ## How I Build  
 
-- **IaC first** - Core infrastructure is provisioned with CloudFormation, SAM, or Terraform with format/lint/plan/change sets. I only use the console where a service really requires it.  
+- **IaC first** - Core infrastructure is provisioned with CloudFormation, SAM, or Terraform with format/lint/plan/change sets. Console steps are limited to service-specific setup and are clearly documented.  
 - **IaC quality gate** - Pinned repos call a reusable IaC GitHub Actions workflow that runs formatting, validation, and (optionally) plans or change sets using OIDC to scoped IAM roles.  
 - **Security and operations** - Least-privilege IAM, private networking by default, tagging, logs, metrics, alarms.  
 - **Consistency** - README structure, architecture diagrams, and verified commits.  
@@ -116,7 +116,7 @@ Services: ECR, ECS Fargate, CodePipeline, CodeBuild, CloudWatch Logs · IaC: Ter
   Services: S3, EC2, SSM, SNS, Cost Explorer, Trusted Advisor, CloudFormation · IaC: CloudFormation  
   [aws-cost-governance-cost-optimization-pillar](http://github.com/patrick-heese/aws-cost-governance-cost-optimization-pillar)  
 
-- Real-Time AWS Operations from Slack (Operational Excellence)  
+- Real-Time AWS Operations from Slack (Operational Excellence Pillar)  
   Services: Amazon Q Developer in Slack, CloudWatch, EventBridge, Lambda, SSM, CloudFront, S3 · IaC: CloudFormation  
   [aws-chatops-operational-excellence-pillar](https://github.com/patrick-heese/aws-chatops-operational-excellence-pillar)  
 
@@ -137,7 +137,7 @@ Services: ECR, ECS Fargate, CodePipeline, CodeBuild, CloudWatch Logs · IaC: Ter
   Services: SageMaker, S3, Lambda, CloudWatch, IAM · IaC: Terraform  
   [aws-sagemaker-threat-detection-system](https://github.com/patrick-heese/aws-sagemaker-threat-detection-system)  
 
-- Daily Task Scheduler - Built with Amazon PartyRock.  
+- Daily Task Scheduler - Built with Amazon PartyRock  
   Services: PartyRock · IaC: N/A  
   [aws-partyrock-daily-task-scheduler](https://github.com/patrick-heese/aws-partyrock-daily-task-scheduler)  
 
